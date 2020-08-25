@@ -1,5 +1,7 @@
 // Chiedere all’utente il cognome
-var cognomeUtente = prompt("Inserisci il tuo cognome");
+do {
+var cognomeUtente = prompt("Inserisci il tuo cognome")
+} while (!isNaN(cognomeUtente));
 // inserirlo in un array con altri cognomi: ‘Bianchi’, ‘Rossi’, ‘Duzioni’, ‘Balsano’, ‘Verdi’
 var listaCognomi = ["Bianchi", "Rossi", "Duzioni", "Balsano", "Verdi"];
 listaCognomi.push(cognomeUtente);
