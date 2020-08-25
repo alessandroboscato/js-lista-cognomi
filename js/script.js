@@ -13,4 +13,10 @@ listaCognomi.sort(function (a, b) {
     return a.toLowerCase().localeCompare(b.toLowerCase());
 });
 console.log(listaCognomi);
+
+
 // scrivi anche la posizione "umana" della lista in cui il nuovo utente si trova
+
+for(var i = 0; i < listaCognomi.length; i++) {
+document.getElementById("cognomi").innerHTML += "<li>" + listaCognomi[i] + "</li>";
+};
