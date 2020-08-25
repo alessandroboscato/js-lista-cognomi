@@ -8,7 +8,9 @@ listaCognomi.push(cognomeUtente);
 console.log(listaCognomi);
 
 // stampa la lista ordinata alfabeticamente
-listaCognomi.sort()
-console.log(listaCognomi);
 
+listaCognomi.sort(function (a, b) {
+    return a.toLowerCase().localeCompare(b.toLowerCase());
+});
+console.log(listaCognomi);
 // scrivi anche la posizione "umana" della lista in cui il nuovo utente si trova
