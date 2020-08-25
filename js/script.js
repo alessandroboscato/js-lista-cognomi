@@ -13,4 +13,6 @@ for(var i = 0; i < listaCognomi.length; i++) {
 document.getElementById("cognomi").innerHTML += "<li>" + listaCognomi[i] + "</li>";
 };
 
-console.log(listaCognomi.indexOf(cognomeUtente));
+var posizione = listaCognomi.indexOf(cognomeUtente);
+console.log(posizione);
+document.getElementById("posizione").innerHTML = posizione + 1;

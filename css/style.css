@@ -1,3 +1,10 @@
 #cognomi li {
   text-transform: capitalize;
 }
+
+#posizione {
+  display: inline-block;
+  background: orange;
+  padding: 20px;
+  border-radius: 100%;
+}
